@@ -1,4 +1,3 @@
 #Developer.HelpSpot
 
-Where we talk about kicking ass.
-
+Kudos powered blog engine.
