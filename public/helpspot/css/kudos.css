@@ -1,0 +1,147 @@
+body
+{
+	background: #FAFAFA;
+	width: 550px;
+	margin: 0 auto;
+	color: #666;
+	font: 100%/1.5 "calluna",serif;
+}
+
+body header
+{
+	margin: 40px 0;
+	text-align: center;
+}
+header a
+{
+	color: #000;
+	font-weight: normal;
+	font-family: "museo-sans",sans-serif;
+	font-size: 46px;
+	text-decoration: none;
+}
+header a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "museo-sans",sans-serif;
+	color: #111;
+	font-weight: normal;
+	text-shadow: 0 1px 0 rgba(0,0,0,.5), 0 -1px 0 #fff;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+p.meta {
+
+}
+
+h2.home
+{
+	margin-top: 40px;
+	border: none;
+}
+
+h2.home:after
+{
+	content: " ::";
+}
+
+h1 a:after
+{
+	content: " ⇒";
+}
+
+a {
+	color: #0054A6;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+ul
+{
+	list-style: disc;
+	margin-left: 35px;
+}
+
+ul li
+{
+	margin-bottom: 4px;
+}
+
+ul.clean
+{
+	list-style: none;
+	margin-left: 0;
+}
+
+p
+{
+	margin-bottom: 1em;
+}
+
+body header h1 a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+body header h1 a:hover
+{
+	text-decoration: underline;
+}
+
+.date
+{
+	color: #aaa;
+}
+
+.article h1
+{
+	font-size: 140%;
+	margin-bottom: 1em;
+}
+
+.article h2, .article h3
+{
+	font-size: 36px;
+	margin: 0;
+}
+.article p.meta {
+	font-size: 14px;
+	font-style: italic;
+}
+
+footer
+{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.draft
+{
+	padding: 10px;
+	color: #000;
+	background-color: yellow;
+	margin-bottom: 40px;
+}
+
+#article_about_me
+{
+	border-top: 1px solid #E12300;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+article #disqus_thread{
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+	padding-top: 20px;
+}
